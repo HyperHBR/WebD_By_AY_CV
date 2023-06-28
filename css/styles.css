@@ -1,0 +1,27 @@
+body{
+    background-color: #EAF6F6; /*Changing Height Of Body Is Not Currently Possible,Check Later*/
+}
+
+hr  {
+    /*background: white;*/
+    border-style: dotted none none; /*Check Documentation*/
+
+    border-color: grey;
+    border-width: 5px;
+    
+
+    /* border-style: none; 
+    border-top-style: dotted;
+    Why No Working*/
+
+    /*If Boder Style None : It Will Make The HR's Size To 0px Making It Disapper*/
+    width: 10%; /* Percentage --> Relative To The Page Size */
+}
+
+h1  {
+    color: #66BFBF;
+}
+
+h3  {
+    color: #66BFBF;
+}
